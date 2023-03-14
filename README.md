@@ -1,0 +1,1 @@
+Primeiro projeto usando react-native, melhorando o código da antiga calculadora feita pra web
