@@ -1,12 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Title from './src/components/header/title';
 import Body from './src/components/body/body';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { StatusBar } from 'react-native-web';
 
 export default function App() {
   return (
     <View  style={styles.container}>
+      <StatusBar backgroundColor={"#ffb90c"}/>
       <View style={styles.header}>
         <Title/>
       </View>

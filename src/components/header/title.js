@@ -1,4 +1,4 @@
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet} from "react-native";
 import logo from "../images/logo.png"
 
 
@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
     header: {
         backgroundColor: "#ffb90c",
         padding: 10,
-        paddingTop: 30
+        paddingTop: 30,
+        zIndex: 10,
     },
     logo:{
         width: 130,
