@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "my-app",
+    "name": "calculadora de aposta",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brunonasccimentto.myapp"
     },
     "android": {
       "adaptiveIcon": {

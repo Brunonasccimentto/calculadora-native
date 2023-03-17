@@ -100,7 +100,7 @@ export default function Form({name}){
     return(
         <View>
             <View style={styles.calcBox}>
-                <Text style={[{fontSize: 14}, {fontFamily:  " 'lucida grande', tahoma, verdana, arial, sans-serif"}, {backgroundColor: "#444"},{color: "#f1f1f1"}, {padding: 5}]}> {name} </Text>
+                <Text style={[{fontSize: 14}, {backgroundColor: "#444"},{color: "#f1f1f1"}, {padding: 5}]}> {name} </Text>
                 <View style={[{padding: 8}, {flexDirection: "row"}]}>
                     <Text > aposta 1 </Text>
                     <Text style={{marginLeft: 20}}> {probability1} </Text>

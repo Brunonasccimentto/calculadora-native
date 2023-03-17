@@ -13,8 +13,8 @@ export default function Title(){
 const styles = StyleSheet.create({
     header: {
         backgroundColor: "#ffb90c",
-        padding: 10,
-        paddingTop: 30,
+        paddingBottom: 6,
+        paddingLeft: 10,
         zIndex: 10,
     },
     logo:{
