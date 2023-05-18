@@ -1,5 +1,6 @@
-import { View, Text, Image, StyleSheet} from "react-native";
+import { View, Image} from "react-native";
 import logo from "../images/logo.png"
+import styles from "../../../style";
 
 
 export default function Title(){
@@ -9,17 +10,3 @@ export default function Title(){
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    header: {
-        backgroundColor: "#ffb90c",
-        paddingBottom: 6,
-        paddingLeft: 10,
-        zIndex: 10,
-    },
-    logo:{
-        width: 130,
-        height: 35,
-        
-    }
-  });

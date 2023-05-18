@@ -1,7 +1,8 @@
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 import Title from './src/components/header/title';
 import Body from './src/components/body/body';
 import { StatusBar } from 'react-native';
+import styles from './style';
 
 export default function App() {
 
@@ -17,13 +18,3 @@ export default function App() {
     </View>
   );
 }
-
-
-const styles = StyleSheet.create({
-  container: {
-    display: "flex",
-    flexDirection: "column",
-    height: "100%",
-    backgroundColor: "#f1f1f1"
-  }
-});
